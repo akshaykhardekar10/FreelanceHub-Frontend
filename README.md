@@ -37,7 +37,7 @@ Or run it locally using the steps below!
 
 ---
 
-## 📷 Screenshots
+<!--## 📷 Screenshots-->
 
 <!-- Add screenshots/gifs of your project here -->
 <!-- ![Home Page](./assets/home.png) -->
