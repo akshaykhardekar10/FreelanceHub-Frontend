@@ -37,11 +37,16 @@ Or run it locally using the steps below!
 
 ---
 
-<!--## 📷 Screenshots-->
+## 📷 Screenshots
 
 <!-- Add screenshots/gifs of your project here -->
 <!-- ![Home Page](./assets/home.png) -->
 <!-- ![Dashboard](./assets/dashboard.png) -->
+### 🏠 Home Page
+![Home Page](./freelanceHub/src/Screenshots/freelance_chatbot.jpeg)
+
+### 📋 Profiles
+![Dashboard](./freelanceHub/src/Screenshots/freelance_profiles.jpeg)
 
 ---
 
