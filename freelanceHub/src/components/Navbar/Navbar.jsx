@@ -3,7 +3,7 @@ import { Box, Button, Container, Flex } from '@chakra-ui/react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { logout } from '../../Store/authSlice';
-import { useAuth } from '../../context/AuthContext'; // Use context
+import { useAuth } from '../../Context/AuthContext'; // Use context
 import { motion } from 'framer-motion';
 
 const MotionButton = motion(Button);
@@ -118,6 +118,27 @@ const Navbar = ({ isAuth }) => {
                   }}
                 >
                   Get Job
+                </MotionButton>
+              </Link>
+              <Link to="/matching/jobs-for-user">
+                <MotionButton
+                  variant="outline"
+                  size="sm"
+                  whileHover={{ scale: 1.05, boxShadow: 'lg' }}
+                  whileTap={{ scale: 0.98 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.4 }}
+                  colorScheme="blue"
+                  borderColor="blue.500"
+                  _hover={{
+                    bg: 'blue.500',
+                    color: '#0A0E1A',
+                    borderColor: 'blue.600',
+                    boxShadow: '0 0 8px rgba(0, 0, 255, 0.5)',
+                  }}
+                >
+                  Jobs For User
                 </MotionButton>
               </Link>
               <Link to="/hire-job">

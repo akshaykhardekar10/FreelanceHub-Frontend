@@ -11,6 +11,7 @@ import { useEffect, useState } from "react"
 import PostJob from "./Pages/PostJob/PostJob"
 import MyProfile from "./Pages/MyProfile/MyProfile"
 import MyPosts from "./Pages/MyPosts/MyPosts"
+import JobsForUser from "./Pages/Matching/JobsForUser"
 
 
 
@@ -65,6 +66,7 @@ function App() {
       <Route path="/profile" element={<MyProfile />} />
       <Route path="/my-posts" element={<MyPosts />} />
       <Route path="/:username" element={<FreelancerProfile />} />
+      <Route path="/matching/jobs-for-user" element={<JobsForUser />} />
     </Routes>
     </PageLayout>
     </>

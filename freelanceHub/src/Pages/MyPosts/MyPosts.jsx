@@ -1,8 +1,7 @@
 import Job from "../../components/Jobs/Job"
-import { VStack, Box, Button, Container, Input, InputGroup, Text, Flex } from '@chakra-ui/react'
+import { VStack, Container } from '@chakra-ui/react'
 import React, {  useEffect, useState } from 'react'
 import { useNavigate } from "react-router-dom"
-import { LuSearch } from "react-icons/lu"
 
 const MyPosts = () => {
     const [jobs, setJobs] = useState([]);
@@ -70,6 +69,7 @@ useEffect(() => {
                         jobId={e.jobId}
                         postedBy = {JSON.stringify(e.postedById)}
                         />
+                        
                         </>
                       )
                 }
@@ -79,6 +79,7 @@ useEffect(() => {
               })
           }
         </Container>
+        
     </VStack>
     
     </>
